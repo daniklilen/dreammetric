@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreammetric — чайная лавка</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Хедер -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Dreammetric">
+        </div>
+        <nav class="nav">
+            <a href="#about">О нас</a>
+            <a href="#catalog">Ассортимент</a>
+            <a href="#atmosphere">Атмосфера</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- Герой с фоновым изображением -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Dreammetric</h1>
+            <p>Чайная лавка, где сны встречаются с реальностью</p>
+            <button class="btn" id="heroBtn">Погрузиться</button>
+        </div>
+    </section>
+
+    <!-- О нас: текст слева, фото справа -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>О нас</h2>
+            <p>«Dreammetric» — это место, где «лусидия» (осознанные сны) сливается с реальностью. Мы помогаем найти отклик в глубине сознания через чай, уют и атмосферу.</p>
+            <p>Наша цель — не только предоставить высокую степень уюта, но и погрузить каждого в измерение снов.</p>
+        </div>
+        <div class="about-image">
+            <img src="images/aboutusimage.jpg" alt="Атмосфера Dreammetric">
+        </div>
+    </section>
+
+    <!-- Ассортимент (каталог) -->
+    <section class="catalog" id="catalog">
+        <h2>Ассортимент</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/teapacket.png" alt="Чай">
+                <h3>Чай</h3>
+                <p>Листовой чай высшего качества</p>
+                <button class="card-btn">Подробнее</button>
+            </div>
+            <div class="card">
+                <img src="images/bubbletea.jpg" alt="Бабл-ти">
+                <h3>Бабл-ти</h3>
+                <p>Освежающий напиток с тапиокой</p>
+                <button class="card-btn">Подробнее</button>
+            </div>
+            <div class="card">
+                <img src="images/voucher.png" alt="Подарочный сертификат">
+                <h3>Подарочные сертификаты</h3>
+                <p>Лучший подарок для ценителей чая</p>
+                <button class="card-btn">Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Атмосфера (кластер из 3 фото) -->
+    <section class="atmosphere" id="atmosphere">
+       <div class="atmosphere-wrapper">
+    <div class="atmosphere-text">
+        <h2>Атмосфера</h2>
+        <br>
+        <br>
+        <p>«Здесь время течёт иначе. Каждая чашка чая — портал в измерение, где реальность переплетается с сновидением.»</p>
+        <p>Тёплый свет, аромат сухоцветов и тишина, прерываемая лишь шёпотом чайных листьев... Добро пожаловать в Dreammetric.</p>
+    </div>
+    <div class="atmosphere-cluster">
+        <div class="cluster-item cluster-large">
+            <img src="images/atmosphere1interior.png" alt="Интерьер">
+        </div>
+        <div class="cluster-small-wrapper">
+            <div class="cluster-item cluster-small">
+                <img src="images/atmosphere2tea.jpg" alt="Чайная церемония">
+            </div>
+            <div class="cluster-item cluster-small">
+                <img src="images/atmosphere3candles.png" alt="Свечи">
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!-- Контакты: форма справа, фото слева -->
+    <section class="contacts" id="contacts">
+        <div class="contacts-image">
+            <img src="images/contacts.jpeg" alt="Свяжитесь с нами">
+        </div>
+        <div class="contacts-form">
+            <h2>Свяжитесь с нами</h2>
+            <form id="feedbackForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea rows="3" placeholder="Ваше сообщение"></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+    <div class="footer-container">
+        <!-- Левая колонка -->
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="images/logosimple.png" alt="Dreammetric">
+                <span>Dreammetric</span>
+            </div>
+            <p class="footer-slogan">Чайная лавка, где сны встречаются с реальностью</p>
+            <div class="footer-contacts">
+                <p> Минск, ул. Гикало, 5</p>
+                <p> +375 (29) 987-65-43</p>
+                <p> Пн–Вс: 11:00 – 22:00</p>
+            </div>
+        </div>
+
+        <!-- Правая колонка (навигация) -->
+        <div class="footer-right">
+            <h4>Компания</h4>
+            <ul class="footer-nav">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#catalog">Услуги</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Нижняя строка (копирайт) -->
+    <div class="footer-bottom">
+        <p>© 2026 Dreammetric. Все права защищены.</p>
+    </div>
+</footer>
+
+    <!-- Модальное окно для чая -->
+<div id="modal-tea" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Чай «Moonlight Oolong»</h3>
+        <p>Нежный улун с лёгкими цветочными нотами и долгим медовым послевкусием. Заваривается при температуре 85°C.</p>
+        <p class="price">30 руб. / 100 г</p>
+        <button class="modal-btn">Заказать</button>
+    </div>
+</div>
+
+<!-- Модальное окно для бабл-ти -->
+<div id="modal-bubble" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Бабл-ти «Звёздная пыль»</h3>
+        <p>Классический молочный чай с тапиокой, сиропом «лаванда» и шапкой сливочной пенки. Подаётся холодным.</p>
+        <p class="price">12 руб. / 450 мл.</p>
+        <button class="modal-btn">Заказать</button>
+    </div>
+</div>
+
+<!-- Модальное окно для подарочного сертификата -->
+<div id="modal-voucher" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Подарочный сертификат</h3>
+        <p>Сертификат номиналом 100, 200 или 500 рублей. Даёт право посетить любую чайную церемонию или выбрать чай на сумму номинала.</p>
+        <p class="price">от 100 руб.</p>
+        <button class="modal-btn">Заказать</button>
+    </div>
+</div>
+
+<!-- Модальное окно-уведомление об отправке -->
+<div id="toastModal" class="toast-modal">
+    <div class="toast-content">
+        <span class="toast-icon">✨</span>
+        <p>Спасибо! Ваше сообщение отправлено.</p>
+        <p class="toast-small">Мы свяжемся с вами в ближайшее время.</p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
